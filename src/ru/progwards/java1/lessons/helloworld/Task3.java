@@ -21,6 +21,14 @@ public class Task3 {
 
         double y = 5.234 % 2;
         System.out.println(y);
+        int i3 = 0b100100101;
+
+        int result;
+        byte value = 0b00000001;
+
+        byte b1 = 0b00000001;
+        result = value & b1;
+        System.out.println(result);
     }
 
     public static int addition(int x, int y){

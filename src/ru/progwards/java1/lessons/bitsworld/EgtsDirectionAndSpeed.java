@@ -1,6 +1,6 @@
 package ru.progwards.java1.lessons.bitsworld;
 
-public class Task3 {
+public class EgtsDirectionAndSpeed {
     public static int getSpeed(short speedAndDir){
         int result;
         int i = 0b00000000_00000000_01111111_11111111;

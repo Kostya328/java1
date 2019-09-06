@@ -1,7 +1,7 @@
 package ru.progwards.java1.lessons.bitsworld;
 
-public class Task2 {
-    public static int checkBit(byte value, int bitNumber){
+public class CheckBit {
+    public static int сheckBit(byte value, int bitNumber){
         int res;
         String s = Integer.toBinaryString(value);
         System.out.println("Представление " + s);

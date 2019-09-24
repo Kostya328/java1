@@ -5,9 +5,10 @@ import ru.progwards.java1.lessons.bitsworld.SumBits;
 public class Main {
 
     public static void main(String[] args) {
-        byte b = 0b00111011;
+        byte b = -128;
         int i = 3;
-        System.out.println(CheckBit.checkBit(b, i));
-        System.out.println("Hello World!");
+        System.out.println(SumBits.sumBits(b));
+        System.out.println(b);
+        System.out.println(Integer.toBinaryString(b));
     }
 }

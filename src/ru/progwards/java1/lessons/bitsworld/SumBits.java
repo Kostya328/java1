@@ -9,8 +9,8 @@ public class SumBits {
         //s = s.replace("0", "");
         //char[] c = s.toCharArray();
         //res = c.length;
-        byte b = 0b00000001;
-        for(int i = 0; i <= 8; i++) {
+        byte b = 1;
+        for(int i = 0; i < 8; i++) {
             int a = value >> i;
             if ((a & b) == 1) {
                 res++;

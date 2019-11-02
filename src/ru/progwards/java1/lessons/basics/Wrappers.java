@@ -10,15 +10,15 @@ public class Wrappers {
     }
 
     public static String sumInBinString(String numStr1, String numStr2){
-        return String.valueOf(Integer.parseInt(String.valueOf(sumStringNumbers(numStr1, numStr2)), 2));
+        return Integer.toBinaryString(sumStringNumbers(numStr1, numStr2));
     }
 
     public static String sumInOctalString(String numStr1, String numStr2){
-        return String.valueOf(Integer.parseInt(String.valueOf(sumStringNumbers(numStr1, numStr2)), 8));
+        return Integer.toOctalString(sumStringNumbers(numStr1, numStr2));
     }
 
     public static String sumInHexString(String numStr1, String numStr2){
-        return String.valueOf(Integer.parseInt(String.valueOf(sumStringNumbers(numStr1, numStr2)), 16));
+        return Integer.toHexString(sumStringNumbers(numStr1, numStr2));
     }
 
     public static String sumInRadixString(String numStr1, String numStr2, int radix){
